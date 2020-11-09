@@ -1,0 +1,16 @@
+<!-- pages/first/first.wxml -->
+<view class="content-wrap">
+  <view class="item {{first_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+    A 我是选项a
+  </view>
+  <view class="item {{first_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+    B 我是选项b
+  </view>
+  <view class="item {{first_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+    C 我是选项c
+  </view>
+  <view class="item {{first_question === 'D'? 'on': ''}}" bindtap="selectchange" data-value="D">
+    D 我是选项d
+  </view>
+  <view class="next" bindtap="bindNext">下一题</view>
+</view>

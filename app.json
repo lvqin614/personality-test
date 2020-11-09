@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/first/first",
+    "pages/second/second",
+    "pages/submit/submit"
   ],
   "window": {
     "backgroundTextStyle": "light",

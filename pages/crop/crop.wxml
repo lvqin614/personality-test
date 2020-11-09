@@ -1,0 +1,11 @@
+<!-- pages/crop/crop.wxml -->
+<import src="../we-cropper/we-cropper" />
+<view class="cropper-wrapper">
+  <template is="we-cropper" data="{{...cropperOpt}}" />
+  <view class="cropper-buttons" style="color: {{cropperOpt.boundStyle.color}}">
+    <view class="upload btn" bindtap="uploadTap">重新选择</view>
+    <view class="getCropperImage btn" style="background-color: {{cropperOpt.boundStyle.color}};" bindtap="getCropperImage">
+      上传图片
+    </view>
+  </view>
+</view>

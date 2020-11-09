@@ -1,0 +1,8 @@
+<!-- pages/submit/submit.wxml -->
+<view class="submit-wrap">
+  <canvas canvas-id="canvas" style="width:{{cWidth}}px;height:{{cHeight}}px;position: absolute;left:-1000px;top:-1000px;"></canvas>
+  <view class="avatar-container">
+    <image wx:if="{{baseInfo.src!==''}}" src="{{baseInfo.src}}" class="avatar" bindtap="upload"></image>
+    <view wx:else="{{baseInfo.src===''}}" class="default-avatar" bindtap="upload"></view>
+  </view>
+</view>

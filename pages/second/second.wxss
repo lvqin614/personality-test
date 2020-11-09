@@ -1,0 +1,27 @@
+/* pages/second/second.wxss */
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content-wrap .item {
+  margin-top: 80rpx;
+  border: 1px solid rosybrown;
+  padding: 20rpx 40rpx;
+}
+
+.content-wrap .item.on {
+  background: rosybrown;
+}
+
+.next {
+  margin-top: 120rpx;
+  border: 1px solid royalblue;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}

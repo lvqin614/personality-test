@@ -1,0 +1,16 @@
+<!-- pages/second/second.wxml -->
+<view class="content-wrap">
+  <view class="item {{second_question === 'A'? 'on': ''}}" data-value="A" bindtap="selectchange">
+    A 哈哈
+  </view>
+  <view class="item {{second_question === 'B'? 'on': ''}}" data-value="B" bindtap="selectchange">
+    B 嘻嘻
+  </view>
+  <view class="item {{second_question === 'C'? 'on': ''}}" data-value="C" bindtap="selectchange">
+    C 呜呜
+  </view>
+  <view class="item {{second_question === 'D'? 'on': ''}}" data-value="D" bindtap="selectchange">
+    D 嗷嗷
+  </view>
+  <view class="next" bindtap="bindNext">下一题</view>
+</view>
