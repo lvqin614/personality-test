@@ -7,16 +7,13 @@ Page({
   data: {
     second_question: ""
   },
-
-  bindNext: function () {
-    wx.navigateTo({
-      url: '../submit/submit'
-    })
-  },
   selectchange: function (e) {
     const second_question = e.currentTarget.dataset.value
     this.setData({
       second_question
+    })
+    wx.navigateTo({
+      url: '../submit/submit'
     })
   },
 

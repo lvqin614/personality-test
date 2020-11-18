@@ -1,16 +1,18 @@
 <!-- pages/second/second.wxml -->
-<view class="content-wrap">
-  <view class="item {{second_question === 'A'? 'on': ''}}" data-value="A" bindtap="selectchange">
-    A 哈哈
+<view class="second_container">
+  <image class="second_bg" src="../../images/second_bg.png" />
+  <view class="second_content">
+    <view class="problem">2. 猫咪对陌生人</view>
+    <view class="answer">
+      <view class="select_item {{second_question === 'A'? 'on': ''}}" data-value="A" bindtap="selectchange">
+        A. 十分友好，随时躺倒
+      </view>
+      <view class="select_item {{second_question === 'B'? 'on': ''}}" data-value="B" bindtap="selectchange">
+        B. 保持距离，静静观察
+      </view>
+      <view class="select_item {{second_question === 'C'? 'on': ''}}" data-value="C" bindtap="selectchange">
+        C. 看到陌生人就藏起来
+      </view>
+    </view>
   </view>
-  <view class="item {{second_question === 'B'? 'on': ''}}" data-value="B" bindtap="selectchange">
-    B 嘻嘻
-  </view>
-  <view class="item {{second_question === 'C'? 'on': ''}}" data-value="C" bindtap="selectchange">
-    C 呜呜
-  </view>
-  <view class="item {{second_question === 'D'? 'on': ''}}" data-value="D" bindtap="selectchange">
-    D 嗷嗷
-  </view>
-  <view class="next" bindtap="bindNext">下一题</view>
 </view>
