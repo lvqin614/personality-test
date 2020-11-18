@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/first/first",
     "pages/second/second",
-    "pages/submit/submit"
+    "pages/submit/submit",
+    "pages/canvas/canvas"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

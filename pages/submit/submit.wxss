@@ -17,3 +17,12 @@
   height: 200rpx;
   border: 1px solid olive;
 }
+
+.next {
+  margin-top: 120rpx;
+  border: 1px solid royalblue;
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}

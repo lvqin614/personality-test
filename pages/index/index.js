@@ -9,7 +9,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  begin: function () {
+  onStart: function () {
     wx.navigateTo({
       url: '../first/first'
     })

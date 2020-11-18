@@ -4,5 +4,6 @@
   <view class="avatar-container">
     <image wx:if="{{baseInfo.src!==''}}" src="{{baseInfo.src}}" class="avatar" bindtap="upload"></image>
     <view wx:else="{{baseInfo.src===''}}" class="default-avatar" bindtap="upload"></view>
+    <view class="next" bindtap="bindNext">生成结果</view>
   </view>
 </view>

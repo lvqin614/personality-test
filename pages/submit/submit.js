@@ -9,6 +9,11 @@ Page({
     cWidth: 0,
     cHeight: 0,
   },
+  bindNext: function () {
+    wx.navigateTo({
+      url: '../canvas/canvas'
+    })
+  },
   upload: function () {
     const _this = this
     wx.chooseImage({

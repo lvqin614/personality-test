@@ -1,4 +1,8 @@
 <!-- index.wxml -->
 <view class="container">
-  <view class="begin" bindtap="begin">开始测试</view>
+  <image class="home_bg" src="../../images/home_bg.png"></image>
+  <view class="home_wrap">
+    <image class="title" src="../../images/home_title.png"></image>
+    <image bindtap="onStart" class="begin_btn" src="../../images/begin_btn.png"></image>
+  </view>
 </view>

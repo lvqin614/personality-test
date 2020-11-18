@@ -1,8 +1,30 @@
 /**index.wxss**/
-.begin {
+.home_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home_wrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end ;
+}
+
+.title {
+  width: 400rpx;
+  height: 76rpx;
+  margin-top: 100rpx;
+  margin-right: 40rpx;
+}
+
+.begin_btn {
   width: 280rpx;
-  height: 100rpx;
-  line-height: 100rpx;
-  text-align: center;
-  border:1px solid #ddd;
+  height: 90rpx;
+  margin-top: 120rpx;
+  margin-right: 40rpx;
 }
