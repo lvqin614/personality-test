@@ -6,15 +6,13 @@ Page({
   data: {
     first_question: ""
   },
-  bindNext: function () {
-    wx.navigateTo({
-      url: '../second/second'
-    })
-  },
   selectchange: function (e) {
     const first_question = e.currentTarget.dataset.value
     this.setData({
       first_question
+    })
+    wx.navigateTo({
+      url: '../second/second'
     })
   },
   /**

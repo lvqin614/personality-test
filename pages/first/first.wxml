@@ -1,16 +1,17 @@
 <!-- pages/first/first.wxml -->
-<view class="content-wrap">
-  <view class="item {{first_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
-    A 我是选项a
+<view class="first_container">
+  <image class="first_bg" src="../../images/first_bg.png" />
+  <view class="first_content">
+    <view class="problem">1. 猫咪和你日常的相处状态</view>
+    <view class="select_item mt {{first_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+      A/ 走哪跟哪，粘人打呼噜
+    </view>
+    <view class="select_item {{first_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+      B/ 保持距离，偶尔粘人
+    </view>
+    <view class="select_item {{first_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+      C/ 从不主动理我
+    </view>
   </view>
-  <view class="item {{first_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
-    B 我是选项b
-  </view>
-  <view class="item {{first_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
-    C 我是选项c
-  </view>
-  <view class="item {{first_question === 'D'? 'on': ''}}" bindtap="selectchange" data-value="D">
-    D 我是选项d
-  </view>
-  <view class="next" bindtap="bindNext">下一题</view>
+  <!-- <view class="next" bindtap="bindNext">下一题</view> -->
 </view>
