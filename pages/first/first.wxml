@@ -1,6 +1,6 @@
 <!-- pages/first/first.wxml -->
 <view class="first_container">
-  <image class="first_bg" src="../../images/first_bg.png" />
+  <image class="first_bg" src="https://lv-images.pek3b.qingstor.com/personality/first_bg.png" />
   <view class="first_content">
     <view class="problem">1. 猫咪和你日常的相处状态</view>
     <view class="select_item mt {{first_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">

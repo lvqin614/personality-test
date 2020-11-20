@@ -1,20 +1,11 @@
-// pages/second/second.js
+// pages/five/five.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    second_question: ""
-  },
-  selectchange: function (e) {
-    const second_question = e.currentTarget.dataset.value
-    this.setData({
-      second_question
-    })
-    wx.navigateTo({
-      url: '../third/third'
-    })
+
   },
 
   /**

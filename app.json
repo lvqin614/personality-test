@@ -3,6 +3,9 @@
     "pages/index/index",
     "pages/first/first",
     "pages/second/second",
+    "pages/third/third",
+    "pages/four/four",
+    "pages/five/five",
     "pages/submit/submit",
     "pages/canvas/canvas"
   ],

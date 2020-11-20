@@ -1,0 +1,19 @@
+<!-- pages/four/four.wxml -->
+<view class="four_container">
+  <!-- <image class="four_bg" src="../../images/four_bg.png" /> -->
+  <cover-image class="play_gif" src="https://lv-images.pek3b.qingstor.com/personality/play.gif"></cover-image>
+  <view class="four_content">
+    <view class="problem">4. 猫咪对于新玩具</view>
+    <view class="answer">
+      <view class="select_item {{four_question === 'A'? 'on': ''}}" data-value="A" bindtap="selectchange">
+        A. 一直玩，玩不厌
+      </view>
+      <view class="select_item {{four_question === 'B'? 'on': ''}}" data-value="B" bindtap="selectchange">
+        B. 玩几天就不爱玩了
+      </view>
+      <view class="select_item {{four_question === 'C'? 'on': ''}}" data-value="C" bindtap="selectchange">
+        C. 对大部分玩具毫无兴趣
+      </view>
+    </view>
+  </view>
+</view>

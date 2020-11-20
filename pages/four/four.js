@@ -1,19 +1,19 @@
-// pages/second/second.js
+// pages/four/four.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    second_question: ""
+    four_question: ""
   },
   selectchange: function (e) {
-    const second_question = e.currentTarget.dataset.value
+    const four_question = e.currentTarget.dataset.value
     this.setData({
-      second_question
+      four_question
     })
     wx.navigateTo({
-      url: '../third/third'
+      url: '../five/five'
     })
   },
 

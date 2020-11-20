@@ -1,22 +1,22 @@
-// pages/second/second.js
+// pages/third/third.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    second_question: ""
+    third_question: ""
   },
   selectchange: function (e) {
-    const second_question = e.currentTarget.dataset.value
+    console.log(e)
+    const third_question = e.currentTarget.dataset.value
     this.setData({
-      second_question
+      third_question
     })
     wx.navigateTo({
-      url: '../third/third'
+      url: '../four/four'
     })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

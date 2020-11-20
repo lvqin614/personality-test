@@ -1,6 +1,6 @@
 <!-- pages/second/second.wxml -->
 <view class="second_container">
-  <image class="second_bg" src="../../images/second_bg.png" />
+  <image class="second_bg" src="https://lv-images.pek3b.qingstor.com/personality/second_bg.png" />
   <view class="second_content">
     <view class="problem">2. 猫咪对陌生人</view>
     <view class="answer">
