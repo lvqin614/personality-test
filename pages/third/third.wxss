@@ -45,6 +45,6 @@
   position: absolute;
   right: 20rpx;
   bottom: 0rpx;
-  width: 360rpx;
-  height: 360rpx;
+  width: 400rpx;
+  height: 400rpx;
 }

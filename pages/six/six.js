@@ -1,21 +1,13 @@
-// pages/five/five.js
+// pages/six/six.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    five_question: ""
+
   },
-  selectchange: function (e) {
-    const five_question = e.currentTarget.dataset.value
-    this.setData({
-      five_question
-    })
-    wx.navigateTo({
-      url: '../six/six'
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

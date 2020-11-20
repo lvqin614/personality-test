@@ -1,2 +1,15 @@
-<!--pages/five/five.wxml-->
-<text>pages/five/five.wxml</text>
+<!-- pages/five/five.wxml -->
+<view class="five_container">
+  <cover-image class="grab_gif" src="https://lv-images.pek3b.qingstor.com/personality/grab.gif"></cover-image>
+  <view class="five_content">
+    <view class="problem">5. 猫咪会忽然满屋乱跑</view>
+    <view class="answer">
+      <view class="select_item {{five_question === 'A'? 'on': ''}}" data-value="A" bindtap="selectchange">
+        A. 会
+      </view>
+      <view class="select_item {{five_question === 'B'? 'on': ''}}" data-value="B" bindtap="selectchange">
+        B. 不会
+      </view>
+    </view>
+  </view>
+</view>
