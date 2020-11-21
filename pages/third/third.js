@@ -8,7 +8,6 @@ Page({
     third_question: ""
   },
   selectchange: function (e) {
-    console.log(e)
     const third_question = e.currentTarget.dataset.value
     this.setData({
       third_question
