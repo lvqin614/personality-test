@@ -2,8 +2,14 @@
 <view class="submit-wrap">
   <canvas canvas-id="canvas" style="width:{{cWidth}}px;height:{{cHeight}}px;position: absolute;left:-1000px;top:-1000px;"></canvas>
   <view class="avatar-container">
-    <image wx:if="{{baseInfo.src!==''}}" src="{{baseInfo.src}}" class="avatar" bindtap="upload"></image>
-    <view wx:else="{{baseInfo.src===''}}" class="default-avatar" bindtap="upload"></view>
-    <view class="next" bindtap="bindNext">生成结果</view>
+    <image wx:if="{{baseInfo.src!==''}}" src="{{baseInfo.src}}" class="default-avatar" bindtap="upload"></image>
+    <image wx:else="{{baseInfo.src===''}}" src="../../images/avatar.png" class="default-avatar" bindtap="upload" />
+    <view class="submit_form">
+      <view class="name">猫咪名字：</view>
+      <view>
+        <input class="name_input" bindtap="onInputChange" placeholder="请输入猫咪名字" data-name="name" />
+      </view>
+    </view>
+    <image bindtap="onSubmit" class="submit_btn" src="https://lv-images.pek3b.qingstor.com/personality/submit_btn.png"></image>
   </view>
 </view>

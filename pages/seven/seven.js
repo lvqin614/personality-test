@@ -12,7 +12,7 @@ Page({
     this.setData({
       seven_question
     })
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../eight/eight'
     })
   },

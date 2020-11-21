@@ -10,7 +10,7 @@ Page({
   },
   //事件处理函数
   onStart: function () {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../first/first'
     })
   },

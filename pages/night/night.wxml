@@ -1,6 +1,6 @@
 <!-- pages/night/night.wxml -->
 <view class="night_container">
-  <image class="night_bg" src="" />
+  <image class="night_bg" src="../../images/night_bg.png" />
   <view class="night_content">
     <view class="problem">9. 和其他猫咪相处时</view>
     <view class="select_item mt {{night_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">

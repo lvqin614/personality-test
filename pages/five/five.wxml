@@ -1,5 +1,6 @@
 <!-- pages/five/five.wxml -->
 <view class="five_container">
+  <image class="five_bg" src="../../images/five_bg.png" />
   <cover-image class="grab_gif" src="https://lv-images.pek3b.qingstor.com/personality/grab.gif"></cover-image>
   <view class="five_content">
     <view class="problem">5. 猫咪会忽然满屋乱跑</view>

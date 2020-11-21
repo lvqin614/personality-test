@@ -1,6 +1,6 @@
 <!-- pages/third/third.wxml -->
 <view class="third_container">
-  <!-- <image class="third_bg" src="../../images/third_bg.png" /> -->
+  <image class="third_bg" src="../../images/third_bg.png" />
   <cover-image class="gif_image" src="https://lv-images.pek3b.qingstor.com/personality/sliding.gif"></cover-image>
   <view class="third_content">
     <view class="problem">3. 猫咪最喜欢探索</view>

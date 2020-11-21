@@ -30,6 +30,7 @@
   border: 1px solid #ddd;
   text-align: left;
   font-size: 40rpx;
+  color: #666;
 }
 
 .mt {

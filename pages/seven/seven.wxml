@@ -1,5 +1,6 @@
 <!-- pages/seven/seven.wxml -->
 <view class="seven_container">
+  <image class="seven_bg" src="../../images/seven_bg.png" />
   <view class="seven_content">
     <view class="problem">7. 猫咪喜欢待在隐蔽的角落</view>
     <view class="answer">

@@ -19,12 +19,12 @@ Page({
       zoom: 8,
       cut: {
         x: (width - 300) / 2,
-        y: (height - 375) / 2,
+        y: (height - 300) / 2,
         width: 300,
-        height: 375
+        height: 300
       },
       boundStyle: {
-        color: '#f1c232',
+        color: 'rgb(229, 193, 129)',
         mask: 'rgba(0,0,0,0.8)',
         lineWidth: 1
       }

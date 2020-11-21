@@ -12,7 +12,7 @@ Page({
     this.setData({
       second_question
     })
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../third/third'
     })
   },

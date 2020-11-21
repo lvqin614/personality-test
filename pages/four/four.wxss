@@ -7,12 +7,14 @@
 }
 
 .problem {
-  align-self: center;
   font-size: 48rpx;
+  text-align: left;
+  margin-left: 48rpx;
 }
 
 .four_content {
   text-align: center;
+  margin-top: 160rpx;
 }
 
 .four_bg{

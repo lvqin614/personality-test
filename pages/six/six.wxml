@@ -1,6 +1,6 @@
 <!-- pages/six/six.wxml -->
 <view class="six_container">
-  <!-- <image class="six_bg" src="" /> -->
+  <image class="six_bg" src="../../images/six_bg.png" />
   <view class="six_content">
     <view class="problem">6. 猫的情绪</view>
     <view class="select_item mt {{six_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">

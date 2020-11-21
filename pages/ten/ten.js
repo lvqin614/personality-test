@@ -12,7 +12,7 @@ Page({
     this.setData({
       ten_question
     })
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../submit/submit'
     })
   },

@@ -12,7 +12,7 @@ Page({
     this.setData({
       eight_question
     })
-    wx.navigateTo({
+    wx.redirectTo({
       url: '../night/night'
     })
   },

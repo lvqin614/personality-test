@@ -1,6 +1,6 @@
 <!-- pages/ten/ten.wxml -->
 <view class="ten_container">
-  <!-- <image class="ten_bg" src="" /> -->
+  <image class="ten_bg" src="../../images/ten_bg.png" />
   <view class="ten_content">
     <view class="problem">10. 在你工作或者在忙时，猫咪会</view>
     <view class="select_item mt {{ten_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">

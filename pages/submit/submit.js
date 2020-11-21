@@ -9,9 +9,30 @@ Page({
     cWidth: 0,
     cHeight: 0,
   },
-  bindNext: function () {
-    wx.navigateTo({
+  onSubmit: function () {
+    if (this.data.baseInfo.src === "") {
+      return wx.showToast({
+        title: "请上传猫咪头像",
+        icon: 'none'
+      })
+    }
+    if (this.data.baseInfo.name === "") {
+      return wx.showToast({
+        title: "请输入猫咪名字",
+        icon: 'none'
+      })
+    }
+    wx.redirectTo({
       url: '../canvas/canvas'
+    })
+  },
+  onInputChange: function (e) {
+    const name = e.currentTarget.dataset.name
+    this.setData({
+      baseInfo: {
+        ...this.data.baseInfo,
+        [name]: e.detail.value
+      }
     })
   },
   upload: function () {

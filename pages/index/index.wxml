@@ -1,6 +1,6 @@
 <!-- index.wxml -->
 <view class="container">
-  <image class="home_bg" src="https://lv-images.pek3b.qingstor.com/personality/home_bg.png"></image>
+  <image class="home_bg" src="../../images/home_bg.png"></image>
   <view class="home_wrap">
     <image class="title" src="https://lv-images.pek3b.qingstor.com/personality/home_title.png"></image>
     <image bindtap="onStart" class="begin_btn" src="https://lv-images.pek3b.qingstor.com/personality/begin_btn.png"></image>

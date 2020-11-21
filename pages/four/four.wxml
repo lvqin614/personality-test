@@ -1,6 +1,6 @@
 <!-- pages/four/four.wxml -->
 <view class="four_container">
-  <!-- <image class="four_bg" src="../../images/four_bg.png" /> -->
+  <image class="four_bg" src="../../images/four_bg.png" />
   <cover-image class="play_gif" src="https://lv-images.pek3b.qingstor.com/personality/play.gif"></cover-image>
   <view class="four_content">
     <view class="problem">4. 猫咪对于新玩具</view>
