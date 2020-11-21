@@ -7,6 +7,10 @@
     "pages/four/four",
     "pages/five/five",
     "pages/six/six",
+    "pages/seven/seven",
+    "pages/eight/eight",
+    "pages/night/night",
+    "pages/ten/ten",
     "pages/submit/submit",
     "pages/canvas/canvas"
   ],

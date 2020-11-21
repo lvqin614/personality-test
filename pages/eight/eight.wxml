@@ -1,0 +1,16 @@
+<!-- pages/eight/eight.wxml -->
+<view class="eight_container">
+  <!-- <image class="eight_bg" src="" /> -->
+  <view class="eight_content">
+    <view class="problem">8. 猫咪对于陌生环境的适应能力</view>
+    <view class="select_item mt {{eight_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+      A/ 很快适应，不怕生
+    </view>
+    <view class="select_item {{eight_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+      B/ 两天左右适应
+    </view>
+    <view class="select_item {{eight_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+      C/ 一周以上才适应
+    </view>
+  </view>
+</view>

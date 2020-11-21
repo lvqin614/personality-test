@@ -1,0 +1,16 @@
+<!-- pages/ten/ten.wxml -->
+<view class="ten_container">
+  <!-- <image class="ten_bg" src="" /> -->
+  <view class="ten_content">
+    <view class="problem">10. 在你工作或者在忙时，猫咪会</view>
+    <view class="select_item mt {{ten_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+      A/ 不停过来打断你
+    </view>
+    <view class="select_item {{ten_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+      B/ 偶尔喵喵叫获取关注
+    </view>
+    <view class="select_item {{ten_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+      C/ 自己玩不打扰铲屎官
+    </view>
+  </view>
+</view>

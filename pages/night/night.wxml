@@ -1,0 +1,16 @@
+<!-- pages/night/night.wxml -->
+<view class="night_container">
+  <image class="night_bg" src="" />
+  <view class="night_content">
+    <view class="problem">9. 和其他猫咪相处时</view>
+    <view class="select_item mt {{night_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+      A. 会把其他猫咪打服
+    </view>
+    <view class="select_item {{night_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+      B. 会护食，标记猫砂盆
+    </view>
+    <view class="select_item {{night_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+      C. 比较友好
+    </view>
+  </view>
+</view>

@@ -1,2 +1,16 @@
-<!--pages/six/six.wxml-->
-<text>pages/six/six.wxml</text>
+<!-- pages/six/six.wxml -->
+<view class="six_container">
+  <!-- <image class="six_bg" src="" /> -->
+  <view class="six_content">
+    <view class="problem">6. 猫的情绪</view>
+    <view class="select_item mt {{six_question === 'A'? 'on': ''}}" bindtap="selectchange" data-value="A">
+      A/ 容易生气咬人、哈气
+    </view>
+    <view class="select_item {{six_question === 'B'? 'on': ''}}" bindtap="selectchange" data-value="B">
+      B/ 撸毛撸久了不开心
+    </view>
+    <view class="select_item {{six_question === 'C'? 'on': ''}}" bindtap="selectchange" data-value="C">
+      C/ 佛系喵，永远平和
+    </view>
+  </view>
+</view>

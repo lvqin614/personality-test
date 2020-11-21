@@ -1,19 +1,19 @@
-// pages/six/six.js
+// pages/seven/seven.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    six_question: ""
+    seven_question: ""
   },
   selectchange: function (e) {
-    const six_question = e.currentTarget.dataset.value
+    const seven_question = e.currentTarget.dataset.value
     this.setData({
-      six_question
+      seven_question
     })
     wx.navigateTo({
-      url: '../seven/seven'
+      url: '../eight/eight'
     })
   },
 
